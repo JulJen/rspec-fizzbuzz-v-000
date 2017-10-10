@@ -40,13 +40,12 @@
 def fizzbuzz(int)
 
   if int % 3 == 0 && int % 5 == 0 # if the number int is divisible by 3 and 5
-    return "FizzBuzz"
+    "FizzBuzz"
 
   elsif int % 3 == 0 # if the number int is divisible by 3
-    return "Fizz"
+    "Fizz"
 
   elsif int % 5 == 0 # if the number int is divisible by 5
-    return "Buzz"
-
+    "Buzz"
   end
 end
