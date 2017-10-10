@@ -1,19 +1,19 @@
 #define method
 
 def fizzbuzz(int)
-  if i % 5 == 0 and i % 3 == 0
-    puts "FizzBuzz"
+  
+  if (int % 3 == 0) && int < 15 # if the number int is divisible by 3
+    "Fizz"
 
-  elseif if int % 3 == 0 # if the number int is divisible by 3
-    puts "Fizz"
+  end
 
+  if (int % 5 == 0) && int < 15 # if the number int is divisible by 5
+    "Buzz"
 
-  elseif int % 5 == 0 # if the number int is divisible by 5
-    puts "Buzz"
+  end
 
-  else
-    puts ""
-
+  if (int % 3 && int % 5) == 0 # if the number int is divisible by 3 and 5
+    "FizzBuzz"
   end
 end
 
