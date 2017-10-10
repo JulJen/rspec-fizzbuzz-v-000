@@ -13,7 +13,8 @@ def fizzbuzz(int)
 
   else
     puts ""
-  
+
+  end
 end
 
 
