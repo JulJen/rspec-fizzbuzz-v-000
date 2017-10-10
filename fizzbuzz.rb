@@ -1,17 +1,17 @@
 #define method
 
-  def fizzbuzz(int)
-     if int % 3 == 0 # if the number int is divisible by 3
-     fizz_3 = "Fizz"
-     return fizz_3 # Go fizz
-    end
+def fizzbuzz(int)
+  if int % 3 == 0 # if the number int is divisible by 3
+    fizz_3 = "Fizz"
+    return fizz_3 # Go fizz
+  end
 
   if int % 5 == 0 # if the number int is divisible by 5
     fizz_5 = "Buzz"
     return fizz_5 # Go Buzz
- end
+  end
 
-    int % 3 == 0 || int % 5 == 0 # if the number int is divisible by 3 and 5
+  if int % 3 == 0 || int % 5 == 0 # if the number int is divisible by 3 and 5
     fizz_15 = "Fizzbuzz"
     return fizz_15 # Go FizzBuzz
   end
