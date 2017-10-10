@@ -3,21 +3,21 @@
 def fizzbuzz(int)
 
   if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz"
+    print "Fizz"
     # return fizz_3 # Go fizz
   end
 
   if int % 5 == 0 # if the number int is divisible by 5
-    "Buzz"
+    print "Buzz"
     # return fizz_5 # Go Buzz
   end
 
   if int % 3 &% int % 5 == 0 # if the number int is divisible by 3 and 5
-    "Fizzbuzz"
+    print "Fizzbuzz"
   end
 
   if int % 4 != 0 # if the number int is divisible by 5
-    ""
+    print ""
     # return fizz_5 # Go Buzz
   end
     # return fizz_15 # Go FizzBuzz
