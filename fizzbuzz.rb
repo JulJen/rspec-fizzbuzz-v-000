@@ -11,8 +11,8 @@ def fizzbuzz(int)
 
   if (int % 5 == 0) == (int % 5 == 0)  # if the number int is divisible by 3 and 5
     return "FizzBuzz" # Go FizzBuzz
-  elseif int % 4 == 0
-    return ""
+  # elseif int % 4 == 0
+  #   return ""
   end
 end
 
