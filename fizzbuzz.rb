@@ -10,7 +10,6 @@
     fizz_5 = "Buzz"
     return fizz_5 # Go Buzz
 
- end
 
     else int % 3 == 0 || int % 5 == 0 # if the number int is divisible by 3 and 5
     fizz_15 = "Fizzbuzz"
