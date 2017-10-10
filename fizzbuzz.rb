@@ -8,7 +8,8 @@
 
   def fizzbuzz(int)
     if int % 3 == 0 # if the number int is divisible by 3
-      return "Fizz" # Go fizz
+      fizz_3 = "Fizz"
+      return fizz_3 # Go fizz
     end
 
   if int % 5 == 0 # if the number int is divisible by 5
