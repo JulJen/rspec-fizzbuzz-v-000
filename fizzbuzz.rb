@@ -4,7 +4,7 @@ def fizzbuzz(int)
 
   if int % 3 == 0 # if the number int is divisible by 3
     fizz_3 = "Fizz"
-  puts "Fizz"
+  puts fizz_3
     # return fizz_3 # Go fizz
   end
 
