@@ -13,7 +13,6 @@ def fizzbuzz(int)
     return "FizzBuzz" # Go FizzBuzz
   elseif int % 4 == 0
     return ""
-
   end
 end
 
