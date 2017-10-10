@@ -17,8 +17,9 @@
  end
 
   if (int % 3 == 0) && (int % 5 == 0) == 0  # if the number int is divisible by 3 and 5
-    return "FizzBuzz" # Go FizzBuzz
-    "FizzBuzz"
+    fizz_15 = "Fizzbuzz"
+    return fizz_15 # Go FizzBuzz
+    
   # elseif int % 4 == 0
   #   return ""
   end
