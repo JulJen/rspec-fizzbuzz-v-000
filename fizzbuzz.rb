@@ -13,8 +13,8 @@
     end
 
   if int % 5 == 0 # if the number int is divisible by 5
+    fizz_5 = "Buzz"
     puts fizzbuzz(5) = fizz_5
-      fizz_5 = "Buzz"
     return fizz_5 # Go Buzz
 
  end
