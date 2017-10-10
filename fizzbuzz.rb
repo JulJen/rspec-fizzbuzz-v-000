@@ -10,7 +10,7 @@ def fizzbuzz(int)
  end
 
   if (int % 5 && int % 5) == 0  # if the number int is divisible by 3 and 5
-    return "FizzBuzz" # Go FizzBuzz
+    puts "FizzBuzz" # Go FizzBuzz
   # elseif int % 4 == 0
   #   return ""
   end
