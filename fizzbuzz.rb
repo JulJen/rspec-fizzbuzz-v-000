@@ -1,7 +1,7 @@
 #define method
 
 def fizzbuzz(int)
-  
+
   if (int % 3 == 0) && int < 15 # if the number int is divisible by 3
     "Fizz"
 
