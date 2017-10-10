@@ -12,13 +12,9 @@ def fizzbuzz(int)
     # return fizz_5 # Go Buzz
   end
 
-  if int % 15 == 0
+  if int % 3 ==0 || int % 5 == 0 # if the number int is divisible by 3 and 5
     return "Fizzbuzz"
   end
-
-  # if int % 3 ==0 || int % 5 == 0 # if the number int is divisible by 3 and 5
-  #   return "Fizzbuzz"
-  # end
 
     # return fizz_15 # Go FizzBuzz
 end
