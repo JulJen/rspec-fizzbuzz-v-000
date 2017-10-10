@@ -2,15 +2,18 @@
 
 def fizzbuzz(int)
   if int % 3 == 0 # if the number int is divisible by 3
-    return "Fizz" # Go fizz
+    puts "Fizz" # Go fizz
+    "Fizz"
   end
 
   if int % 5 == 0 # if the number int is divisible by 5
-    return "Buzz" # Go Buzz
+    puts "Buzz" # Go Buzz
+    "Buzz"
  end
 
-  if (int % 5 && int % 5) == 0  # if the number int is divisible by 3 and 5
+  if (int % 3 == 0) && (int % 5 == 0) == 0  # if the number int is divisible by 3 and 5
     puts "FizzBuzz" # Go FizzBuzz
+    "FizzBuzz"
   # elseif int % 4 == 0
   #   return ""
   end
