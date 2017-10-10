@@ -12,7 +12,8 @@
     end
 
   if int % 5 == 0 # if the number int is divisible by 5
-    return "Buzz" # Go Buzz
+    fizz_5 = "Buzz"
+    return fizz_5 # Go Buzz
     "Buzz"
  end
 
