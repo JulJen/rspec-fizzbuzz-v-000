@@ -7,7 +7,7 @@ def fizzbuzz(int)
     # return fizz_3 # Go fizz
   end
 
-  if int % 5 == 0 # if the number int is divisible by 5
+  if (int % 5 == 0) && int < 15 # if the number int is divisible by 5
     return "Buzz"
     # return fizz_5 # Go Buzz
   end
